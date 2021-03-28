@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Python Basic Grammar-  Welcome</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1><a href="index.html">Python</a></h1>
+    <ol>
+      <li><a href="ch 1.html">Boolean</a></li>
+      <li><a href="ch 2.html">연산자</a></li>
+      <li><a href="ch 3.html">랜덤함수</a></li>
+    </ol>
+
+    <h2>Boolean</h2>
+    <p>
+      print(not True) // not은 뒤에 있는 무언가의 반대<br><br>
+
+      //--------------------------------------------------------<br><br>
+
+      #예제<br>
+      animal = '강아지'<br>
+      name = '연탄이'<br>
+      age = 4<br>
+      hobby = '산책'<br>
+      is_adult = age >= 3<br><br>
+
+      print('우리집 ' + animal + '의 이름은 ' + name + '예요')<br>
+      print(name + '는 ' + str(age) + '살이며, ' + hobby + '을 아주 좋아해요')<br>
+      // 정수형은 print문에서 쓰이려면 str이라는 걸로 감싸줌<br>
+      print(name + '는 어른일까요? ' + str(is_adult))<br>
+      // Boolean형도 마찬가지<br><br>
+
+      //----------------------------------------------------------<br><br>
+      +가 아닌 쉼표로도 여러 문장을 합칠 수 있음.<br>
+      이때는 정수형 변수와 Boolean 변수를 그대로 사용할 수 있음<br>
+      쉼표가 들어가면 무조건 띄어쓰기가 한 칸 들어감
+    </p>
+    
+    <h4>댓글</h4>
+    <p>
+      <div id="disqus_thread"></div>
+      <script>
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://python-basic-grammar.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+    <p>
+      <!--Start of Tawk.to Script-->
+      <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/606037c8f7ce18270934b106/1f1rtjqu8';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+      <!--End of Tawk.to Script-->
+    </p>
+</html>
